@@ -8,6 +8,7 @@
 :root{
     --color-principal: #4F90FF;
     --color-principal-dark: #2367dd;
+    --color-tres:#fff;
     --font-principal: 'Nunito', sans-serif;
     --font-secundaria: 'Lato', sans-serif;
 }
