@@ -12,11 +12,11 @@
     --font-principal: 'Nunito', sans-serif;
     --font-secundaria: 'Lato', sans-serif;
 }
-
+/* 
 #submain *:hover{
     background-color:#fafaff;
     color:black;
-}
+} */
 
 body{
     padding:1rem 2rem;
@@ -218,4 +218,9 @@ ul li span{
         grid-template-columns: 1fr;
     }
 
+}
+
+@media print{
+    body{background-color:white;}
+    #submain{background-color:#fefefe;}
 }
